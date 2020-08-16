@@ -56,17 +56,37 @@ const fetchIssues = () => {
 }
 
 
-let Description = document.getElementById('description').value;
-// const Severity = document.getElementById('severity')
-// let Assigned = document.getElementById('assigned').value;
+// let khan = document.getElementById('fist').value;
+// // const Severity = document.getElementById('severity')
+// let inputNum = document.getElementById('assigned').value;
 
-if (Description.value = "") {
+// if ((khan == "" && inputNum == "")) {
 
-document.getElementById('submitBin').addEventListener('click',function(){
-  alert('not ok');
-})
-  
-  
-// }else if(Description,Assigned ){
+// document.getElementById('submitBin').addEventListener('click',function(){
+//   alert('not ok');
+// })
+// }
+// // else {
+//  continue;
+// }
+
+
+function submitButton(){
+  var num = document.getElementById('fist').value;
+var inputNum = document.getElementById('assigned').value;
+
+if (num == "" && inputNum == "") {
+ alert('please First give your generate pin');
 
 }
+//     else if(num == inputNum) {
+   
+// }
+// else{ 
+ 
+
+// }
+
+}
+
+
